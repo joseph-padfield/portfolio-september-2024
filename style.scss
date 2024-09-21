@@ -16,7 +16,6 @@
 $normal-font: PPNeueMontrealBook, sans-serif;
 $medium-font: PPNeueMontrealMedium, sans-serif;
 $thin-font: PPNeueMontrealThin, sans-serif;
-$nav-txt-size: 0.6rem;
 
 * {
   box-sizing: border-box;
@@ -29,7 +28,8 @@ html {
 body {
   margin: 0;
   font-family: $normal-font;
-  background-color: aliceblue;
+  background-color: black;
+  padding: 0 3rem;
 }
 
 .p-1 {
@@ -39,7 +39,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 0.5rem;
 
     .nav-brand {
       display: flex;
@@ -51,10 +51,9 @@ body {
       padding: 0 0.3rem;
 
       p {
-        font-family: $medium-font, sans-serif;
-        font-size: $nav-txt-size;
+        font-family: $thin-font, sans-serif;
+        font-size: 0.8rem;
         color: white;
-        letter-spacing: 0.2rem;
       }
     }
 
@@ -69,80 +68,91 @@ body {
   .row-2 {
     height: fit-content;
     padding: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 
     .h1-container {
       display: flex;
       flex-direction: row;
-      justify-content: right;
+      border-bottom: white solid 1px;
 
       h1 {
+        color: white;
         font-family: $thin-font;
-        width: 100%;
-        text-align: right;
+        text-align: center;
         font-size: 2rem;
-        border-left: black solid 2px;
-        border-bottom: solid black 2px;
-        margin-bottom: 0;
-        padding: 0.5rem 1rem 0.5rem 5rem;
+        align-items: flex-end;
+        padding: 1rem;
+        margin: 0;
 
       }
     }
 
-    h2 {
-      font-family: $medium-font;
-      border-bottom: solid black 2px;
-      width: fit-content;
-      padding: 0.5rem 0.5rem;
-      font-size: 3rem;
+    .h2-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      h2 {
+        color: white;
+        font-family: $medium-font;
+        text-align: right;
+        font-size: 1.5rem;
+        border-right: white 1px solid;
+        padding: 1rem;
+        margin: 0;
+      }
+
+      h3 {
+        color: white;
+        padding: 1rem;
+        margin: 0;
+      }
 
     }
 
-    h3 {
-      letter-spacing: 0.4rem;
-      line-height: 2.3rem;
-      font-size: 1.5rem;
-      margin-top: 2rem;
-      margin-bottom: 0;
-      width: fit-content;
-      padding: 0.5rem 0.5rem;
-    }
   }
 
   .row-3 {
-    font-family: $medium-font;
+    font-family: $thin-font;
+    font-size: 0.8rem;
     height: fit-content;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
     gap: 5rem;
-    padding: 1rem 0;
     position: sticky;
+    padding: 0.3rem;
     top: 0;
-    border-bottom: 2px black solid;
-    border-top: 2px black solid;
-    background-color: white;
+    border-bottom: 1px white solid;
+    border-top: 1px white solid;
+    background-color: black;
 
     a {
-      color: black;
+      color: white;
+      text-decoration: none;
     }
 
   }
 
   .row-4 {
-    padding: 3rem 0;
+    padding: 1rem 0;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     border-bottom: black solid 2px;
-    gap: 2rem;
+    gap: 3rem;
 
 
     .project-container {
       border: solid black 2px;
-      width: 20rem;
-      height: 10rem;
+      width: 100%;
+      height: 13rem;
     }
   }
 
@@ -169,22 +179,24 @@ body {
 
   .row-5 {
     height: fit-content;
-    width: 100%;
-    padding: 2rem 2.5rem;
 
     h1 {
       font-family: $normal-font;
+      font-size: 1.5rem;
+      color: white;
+      padding: 0 0 0.5rem 0;
       margin: 0;
-      padding: 0;
-      letter-spacing: 1rem;
-
+      width: 100%;
+      border-bottom: white solid 1px;
     }
 
     p {
       font-family: $normal-font;
+      text-align: center;
+      color: white;
+      padding: 0.5rem 0 0 0;
       margin: 0;
-      padding: 1rem 0;
-      line-height: 1.7rem;
+
     }
   }
 }

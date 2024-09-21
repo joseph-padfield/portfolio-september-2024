@@ -21,7 +21,8 @@ html {
 body {
   margin: 0;
   font-family: PPNeueMontrealBook, sans-serif;
-  background-color: aliceblue;
+  background-color: black;
+  padding: 0 3rem;
 }
 
 .p-1 .row-1 {
@@ -30,7 +31,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 0.5rem;
 }
 .p-1 .row-1 .nav-brand {
   display: flex;
@@ -42,10 +43,9 @@ body {
   padding: 0 0.3rem;
 }
 .p-1 .row-1 .nav-brand p {
-  font-family: PPNeueMontrealMedium, sans-serif, sans-serif;
-  font-size: 0.6rem;
+  font-family: PPNeueMontrealThin, sans-serif, sans-serif;
+  font-size: 0.8rem;
   color: white;
-  letter-spacing: 0.2rem;
 }
 .p-1 .row-1 .links {
   display: flex;
@@ -56,69 +56,78 @@ body {
 .p-1 .row-2 {
   height: fit-content;
   padding: 1rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .p-1 .row-2 .h1-container {
   display: flex;
   flex-direction: row;
-  justify-content: right;
+  border-bottom: white solid 1px;
 }
 .p-1 .row-2 .h1-container h1 {
+  color: white;
   font-family: PPNeueMontrealThin, sans-serif;
-  width: 100%;
-  text-align: right;
+  text-align: center;
   font-size: 2rem;
-  border-left: black solid 2px;
-  border-bottom: solid black 2px;
-  margin-bottom: 0;
-  padding: 0.5rem 1rem 0.5rem 5rem;
+  align-items: flex-end;
+  padding: 1rem;
+  margin: 0;
 }
-.p-1 .row-2 h2 {
+.p-1 .row-2 .h2-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.p-1 .row-2 .h2-container h2 {
+  color: white;
   font-family: PPNeueMontrealMedium, sans-serif;
-  border-bottom: solid black 2px;
-  width: fit-content;
-  padding: 0.5rem 0.5rem;
-  font-size: 3rem;
-}
-.p-1 .row-2 h3 {
-  letter-spacing: 0.4rem;
-  line-height: 2.3rem;
+  text-align: right;
   font-size: 1.5rem;
-  margin-top: 2rem;
-  margin-bottom: 0;
-  width: fit-content;
-  padding: 0.5rem 0.5rem;
+  border-right: white 1px solid;
+  padding: 1rem;
+  margin: 0;
+}
+.p-1 .row-2 .h2-container h3 {
+  color: white;
+  padding: 1rem;
+  margin: 0;
 }
 .p-1 .row-3 {
-  font-family: PPNeueMontrealMedium, sans-serif;
+  font-family: PPNeueMontrealThin, sans-serif;
+  font-size: 0.8rem;
   height: fit-content;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
   gap: 5rem;
-  padding: 1rem 0;
   position: sticky;
+  padding: 0.3rem;
   top: 0;
-  border-bottom: 2px black solid;
-  border-top: 2px black solid;
-  background-color: white;
+  border-bottom: 1px white solid;
+  border-top: 1px white solid;
+  background-color: black;
 }
 .p-1 .row-3 a {
-  color: black;
+  color: white;
+  text-decoration: none;
 }
 .p-1 .row-4 {
-  padding: 3rem 0;
+  padding: 1rem 0;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   border-bottom: black solid 2px;
-  gap: 2rem;
+  gap: 3rem;
 }
 .p-1 .row-4 .project-container {
   border: solid black 2px;
-  width: 20rem;
-  height: 10rem;
+  width: 100%;
+  height: 13rem;
 }
 .p-1 #film-quiz {
   background-image: url("img/movie_quote_quiz.png");
@@ -137,20 +146,22 @@ body {
 }
 .p-1 .row-5 {
   height: fit-content;
-  width: 100%;
-  padding: 2rem 2.5rem;
 }
 .p-1 .row-5 h1 {
   font-family: PPNeueMontrealBook, sans-serif;
+  font-size: 1.5rem;
+  color: white;
+  padding: 0 0 0.5rem 0;
   margin: 0;
-  padding: 0;
-  letter-spacing: 1rem;
+  width: 100%;
+  border-bottom: white solid 1px;
 }
 .p-1 .row-5 p {
   font-family: PPNeueMontrealBook, sans-serif;
+  text-align: center;
+  color: white;
+  padding: 0.5rem 0 0 0;
   margin: 0;
-  padding: 1rem 0;
-  line-height: 1.7rem;
 }
 
 /*# sourceMappingURL=style.css.map */
