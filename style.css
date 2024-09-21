@@ -22,7 +22,6 @@ body {
   margin: 0;
   font-family: PPNeueMontrealBook, sans-serif;
   background-color: black;
-  padding: 0 3rem;
 }
 
 .p-1 .row-1 {
@@ -31,7 +30,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding-top: 0.5rem;
+  padding: 0.5rem 3rem 0 3rem;
 }
 .p-1 .row-1 .nav-brand {
   display: flex;
@@ -94,16 +93,15 @@ body {
   margin: 0;
 }
 .p-1 .row-3 {
-  font-family: PPNeueMontrealThin, sans-serif;
+  font-family: PPNeueMontrealMedium, sans-serif;
   font-size: 0.8rem;
   height: fit-content;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  gap: 5rem;
   position: sticky;
-  padding: 0.3rem;
+  padding: 0.6rem 3rem;
   top: 0;
   border-bottom: 1px white solid;
   border-top: 1px white solid;
@@ -114,7 +112,7 @@ body {
   text-decoration: none;
 }
 .p-1 .row-4 {
-  padding: 1rem 0;
+  padding: 1rem 3rem 1rem 3rem;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -145,6 +143,7 @@ body {
 }
 .p-1 .row-5 {
   height: fit-content;
+  padding: 0.5rem 3rem 0 3rem;
 }
 .p-1 .row-5 h1 {
   font-family: PPNeueMontrealBook, sans-serif;

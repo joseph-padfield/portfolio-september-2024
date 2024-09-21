@@ -29,7 +29,6 @@ body {
   margin: 0;
   font-family: $normal-font;
   background-color: black;
-  padding: 0 3rem;
 }
 
 .p-1 {
@@ -39,7 +38,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding-top: 0.5rem;
+    padding: 0.5rem 3rem 0 3rem;
 
     .nav-brand {
       display: flex;
@@ -115,16 +114,15 @@ body {
   }
 
   .row-3 {
-    font-family: $thin-font;
+    font-family: $medium-font;
     font-size: 0.8rem;
     height: fit-content;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    gap: 5rem;
     position: sticky;
-    padding: 0.3rem;
+    padding: 0.6rem 3rem;
     top: 0;
     border-bottom: 1px white solid;
     border-top: 1px white solid;
@@ -138,7 +136,7 @@ body {
   }
 
   .row-4 {
-    padding: 1rem 0;
+    padding: 1rem 3rem 1rem 3rem;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -178,6 +176,7 @@ body {
 
   .row-5 {
     height: fit-content;
+    padding: 0.5rem 3rem 0 3rem;
 
     h1 {
       font-family: $normal-font;
