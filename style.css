@@ -1,0 +1,156 @@
+@font-face {
+  font-family: "PPNeueMontrealBook";
+  src: url("fonts/PPNeueMontreal/PPNeueMontreal-Book.otf") format("opentype");
+}
+@font-face {
+  font-family: "PPNeueMontrealMedium";
+  src: url("fonts/PPNeueMontreal/PPNeueMontreal-Medium.otf") format("opentype");
+}
+@font-face {
+  font-family: "PPNeueMontrealThin";
+  src: url("fonts/PPNeueMontreal/PPNeueMontreal-Thin.otf") format("opentype");
+}
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: PPNeueMontrealBook, sans-serif;
+  background-color: aliceblue;
+}
+
+.p-1 .row-1 {
+  height: fit-content;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+}
+.p-1 .row-1 .nav-brand {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: black;
+  height: 100%;
+  width: fit-content;
+  padding: 0 0.3rem;
+}
+.p-1 .row-1 .nav-brand p {
+  font-family: PPNeueMontrealMedium, sans-serif, sans-serif;
+  font-size: 0.6rem;
+  color: white;
+  letter-spacing: 0.2rem;
+}
+.p-1 .row-1 .links {
+  display: flex;
+  align-items: center;
+  font-size: 0.5rem;
+  gap: 1rem;
+}
+.p-1 .row-2 {
+  height: fit-content;
+  padding: 1rem 2rem;
+}
+.p-1 .row-2 .h1-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+}
+.p-1 .row-2 .h1-container h1 {
+  font-family: PPNeueMontrealThin, sans-serif;
+  width: 100%;
+  text-align: right;
+  font-size: 2rem;
+  border-left: black solid 2px;
+  border-bottom: solid black 2px;
+  margin-bottom: 0;
+  padding: 0.5rem 1rem 0.5rem 5rem;
+}
+.p-1 .row-2 h2 {
+  font-family: PPNeueMontrealMedium, sans-serif;
+  border-bottom: solid black 2px;
+  width: fit-content;
+  padding: 0.5rem 0.5rem;
+  font-size: 3rem;
+}
+.p-1 .row-2 h3 {
+  letter-spacing: 0.4rem;
+  line-height: 2.3rem;
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  margin-bottom: 0;
+  width: fit-content;
+  padding: 0.5rem 0.5rem;
+}
+.p-1 .row-3 {
+  font-family: PPNeueMontrealMedium, sans-serif;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 5rem;
+  padding: 1rem 0;
+  position: sticky;
+  top: 0;
+  border-bottom: 2px black solid;
+  border-top: 2px black solid;
+  background-color: white;
+}
+.p-1 .row-3 a {
+  color: black;
+}
+.p-1 .row-4 {
+  padding: 3rem 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  border-bottom: black solid 2px;
+  gap: 2rem;
+}
+.p-1 .row-4 .project-container {
+  border: solid black 2px;
+  width: 20rem;
+  height: 10rem;
+}
+.p-1 #film-quiz {
+  background-image: url("img/movie_quote_quiz.png");
+  background-size: cover;
+  background-position: center;
+}
+.p-1 #collector-app {
+  background-image: url("img/reels-from-the-crypt.png");
+  background-size: cover;
+  background-position: center;
+}
+.p-1 #furniture-store {
+  background-image: url("img/furniture-store.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+.p-1 .row-5 {
+  height: fit-content;
+  width: 100%;
+  padding: 2rem 2.5rem;
+}
+.p-1 .row-5 h1 {
+  font-family: PPNeueMontrealBook, sans-serif;
+  margin: 0;
+  padding: 0;
+  letter-spacing: 1rem;
+}
+.p-1 .row-5 p {
+  font-family: PPNeueMontrealBook, sans-serif;
+  margin: 0;
+  padding: 1rem 0;
+  line-height: 1.7rem;
+}
+
+/*# sourceMappingURL=style.css.map */
