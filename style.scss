@@ -39,7 +39,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 0.5rem 0.5rem;
+    padding-top: 0.5rem;
 
     .nav-brand {
       display: flex;
@@ -48,7 +48,6 @@ body {
       background-color: black;
       height: 100%;
       width: fit-content;
-      padding: 0 0.3rem;
 
       p {
         font-family: $thin-font, sans-serif;
@@ -192,7 +191,7 @@ body {
 
     p {
       font-family: $normal-font;
-      text-align: center;
+      text-align: justify-all;
       color: white;
       padding: 0.5rem 0 0 0;
       margin: 0;

@@ -31,7 +31,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 0.5rem 0.5rem;
+  padding-top: 0.5rem;
 }
 .p-1 .row-1 .nav-brand {
   display: flex;
@@ -40,7 +40,6 @@ body {
   background-color: black;
   height: 100%;
   width: fit-content;
-  padding: 0 0.3rem;
 }
 .p-1 .row-1 .nav-brand p {
   font-family: PPNeueMontrealThin, sans-serif, sans-serif;
@@ -158,7 +157,7 @@ body {
 }
 .p-1 .row-5 p {
   font-family: PPNeueMontrealBook, sans-serif;
-  text-align: center;
+  text-align: justify-all;
   color: white;
   padding: 0.5rem 0 0 0;
   margin: 0;
