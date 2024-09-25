@@ -95,7 +95,7 @@ body {
 .p-1 .row-3 {
   font-family: PPNeueMontrealMedium, sans-serif;
   font-size: 0.8rem;
-  height: fit-content;
+  height: 3rem;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -106,10 +106,16 @@ body {
   border-bottom: 1px white solid;
   border-top: 1px white solid;
   background-color: black;
+  z-index: 1;
 }
 .p-1 .row-3 a {
+  font-size: 1rem;
   color: white;
   text-decoration: none;
+  transition: font-size 0.2s ease-in-out;
+}
+.p-1 .row-3 a:hover {
+  font-size: 1.5rem;
 }
 .p-1 .row-4 {
   padding: 1rem 3rem 1rem 3rem;
@@ -125,6 +131,30 @@ body {
   border: solid black 2px;
   width: 100%;
   height: 13rem;
+}
+.p-1 .row-4 .project-container .overlay {
+  color: white;
+  opacity: 0;
+  transition: opacity 2s ease;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+}
+.p-1 .row-4 .project-container .overlay:hover {
+  opacity: 0.7;
+}
+.p-1 .row-4 .project-container .overlay a {
+  color: white;
+  transition: font-size 0.2s ease-in-out;
+}
+.p-1 .row-4 .project-container .overlay a:hover {
+  font-size: 1.2rem;
+}
+.p-1 .row-4 .project-container .overlay a:active {
+  transform: scale(1.1);
+}
+.p-1 .row-4 .project-container .overlay h3 {
+  margin: unset;
 }
 .p-1 #film-quiz {
   background-image: url("img/movie_quote_quiz.png");
