@@ -5,3 +5,7 @@
 /logs/*
 !/logs/README.md
 /node_modules
+composer.lock
+
+# Sensitive information
+.env
