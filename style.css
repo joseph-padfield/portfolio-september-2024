@@ -77,15 +77,17 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+
 }
 .p-1 .row-2 .h2-container h2 {
   color: white;
   font-family: PPNeueMontrealMedium, sans-serif;
   text-align: right;
   font-size: 1.5rem;
-  border-right: white 1px solid;
   padding: 1rem;
   margin: 0;
+  border-right: white solid 1px;
+
 }
 .p-1 .row-2 .h2-container h3 {
   color: white;
@@ -165,7 +167,7 @@ body {
   background-position: center;
 }
 .p-1 #furniture-store {
-  background-image: url("img/furniture-store.jpeg");
+  background-image: url("img/furniture-store.png");
   background-size: cover;
   background-position: center;
 }
