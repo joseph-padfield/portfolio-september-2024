@@ -130,6 +130,11 @@ body {
   height: 13rem;
 }
 .p-1 .row-4 .project-container .overlay {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-left: 2rem;
+  padding-bottom: 1rem;
   color: white;
   opacity: 0;
   transition: opacity 2s ease;
@@ -138,7 +143,7 @@ body {
   background-color: black;
 }
 .p-1 .row-4 .project-container .overlay:hover {
-  opacity: 0.7;
+  opacity: 0.9;
 }
 .p-1 .row-4 .project-container .overlay a {
   color: white;
@@ -152,6 +157,11 @@ body {
 }
 .p-1 .row-4 .project-container .overlay h3 {
   margin: unset;
+}
+.p-1 #tom-waits-ipsum {
+  background-image: url("img/tom-waits-ipsum.png");
+  background-size: cover;
+  background-position: top;
 }
 .p-1 #film-quiz {
   background-image: url("img/movie_quote_quiz.png");
@@ -195,18 +205,18 @@ body {
 }
 @media (min-width: 1000px) {
   .p-1 .row-4 {
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
   }
   .p-1 .row-4 .project-container {
-    width: 30rem;
+    width: 27rem;
   }
   .p-1 #about {
     width: 30rem;
   }
   .p-1 #projects-about-container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
   }
 }
